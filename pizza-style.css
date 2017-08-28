@@ -1,0 +1,14 @@
+body {
+  font-family: 'Baloo Bhaijaan', cursive;
+  text-align: center;
+  background-image: url("https://68.media.tumblr.com/178644ec60841acd13a12758de7e0711/tumblr_mzvncd8C0E1rpx8rzo1_r1_500.jpg");
+  background-size:100%;
+  background-repeat:no-repeat;
+  padding: 60px 200px;
+
+}
+#boxy{
+  background: rgba(255, 255, 255, 0.5);
+  padding: 50px 0px;
+
+}

@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Pizza Order Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"> </script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="pizza-form.js"></script>
+    <link rel="stylesheet" href="pizza-style.css">
+
+  </head>
+
+<body>
+  <div id="boxy">
+  <h1> Space Kitten Pizza Party Order Form</h1><br>
+
+  <p id="result">  </p>
+
+  <form id="pizza-form">
+  <input type="text" name="fullName" placeholder="Full Name" required>&emsp;
+  <input type="text" name="phoneNumber" placeholder="Phone Number" required>&emsp;
+  <input type="text" name="address" placeholder="Address" required>
+  <br> <br>
+
+  <h5>Choose a size:</h5>
+  <input type="radio" name="size" id="Personal" value="6"> $6.00 Personal pizza &emsp;
+  <input type="radio" name="size" id="Medium" value="10"> $10.00 Medium pizza &emsp;
+  <input type="radio" name="size" id="Large" value="14">  $14.00 Large pizza &emsp;
+  <input type="radio" name="size" id="Extra-Large" value="16">  $16.00 Extra Large pizza <br><br>
+
+ <h5>Cheese Options:</h5>
+  <input type="radio" name="cheese" id="Regular" value="0"> Regular &emsp;
+  <input type="radio" name="cheese" id="No" value="0"> No cheese &emsp;
+  <input type="radio" name="cheese" id="Extra" value="3">  Extra Cheese ($3.00) <br><br>
+
+<h5>Crust Selection</h5>
+  <input type="radio" name="crust" id="Plain" value="0"> Plain Crust &emsp;
+  <input type="radio" name="crust" id="Garlic-Butter" value="0"> Garlic Butter Crust &emsp;
+  <input type="radio" name="crust" id="Cheese-Stuffed" value="3">  Cheese Stuffed Crust ($3.00) &emsp;
+  <input type="radio" name="crust" id="Spicy" value="0">  Spicy Crust &emsp;
+  <input type="radio" name="crust" id="House-Special" value="0"> House Special Crust<br><br>
+
+<h5>Sauce Selection</h5>
+  <input type="radio" name="sauce" id="No" value="0"> No Sauce&emsp;
+  <input type="radio" name="sauce" id="Marinara" value="0"> Marinara Sauce &emsp;
+  <input type="radio" name="sauce" id="White" value="0">  White Sauce &emsp;
+  <input type="radio" name="sauce" id="Barbeque" value="0">  Barbeque Sauce<br><br>
+
+<h5>Meat Toppings:</h5>
+<p>The first meat topping is free and each additional meat topping is $1.</p>
+  <input type="checkbox" name="meat" id=" Pepperoni" value="1"> Pepperoni &emsp;
+  <input type="checkbox" name="meat" id=" Sausage" value="1"> Sausage &emsp;
+  <input type="checkbox" name="meat" id=" Canadian-Bacon" value="1">  Canadian Bacon &emsp;
+  <input type="checkbox" name="meat" id=" Ground-Beef" value="1">  Ground Beef &emsp;
+  <input type="checkbox" name="meat" id=" Anchovy" value="1"> Anchovy &emsp;
+  <input type="checkbox" name="meat" id=" Chicken" value="1"> Chicken <br><br>
+
+<h5>Veggie Toppings:</h5>
+<p>The first veggie topping is free and each additional veggies topping is $1. </p>
+  <input type="checkbox" name="veggies" id=" Tomatoes" value="1"> Tomatoes &emsp;
+  <input type="checkbox" name="veggies" id=" Onions" value="1"> Onions &emsp;
+  <input type="checkbox" name="veggies" id=" Olives" value="1">  Olives &emsp;
+  <input type="checkbox" name="veggies" id=" Green-Peppers" value="1">  Green Peppers &emsp;
+  <input type="checkbox" name="veggies" id=" Mushrooms" value="1"> Mushrooms &emsp;
+  <input type="checkbox" name="veggies" id=" Pineapple" value="1"> Pineapple &emsp;
+  <input type="checkbox" name="veggies" id=" Spinach" value="1">  Spinach &emsp;
+  <input type="checkbox" name="veggies" id=" Jalapeno" value="1">  Jalapeno  <br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+  </div>
+
+</body>
+</html>
